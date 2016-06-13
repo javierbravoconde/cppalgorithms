@@ -22,6 +22,7 @@ int main() {
 	erase_remove::eraseRemove();
 
 	modifying_algo::backInserter();
+	modifying_algo::noBackInserter();
 
 	return 0;
 }

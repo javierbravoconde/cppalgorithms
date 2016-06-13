@@ -19,6 +19,7 @@ namespace erase_remove
 
 	void eraseRemove()
 	{
+		std::cout << "starting backInserter" << std::endl;
 		std::vector<std::string> aListNames {"Javier", "Maria", "Olalla"};
 
 		std::cout << aListNames.size() << std::endl;
@@ -31,7 +32,7 @@ namespace erase_remove
 		std::cout << aListNames.size() << std::endl;
 		for (const std::string& aName : aListNames)
 		{
-			std::cout << aName;
+			std::cout << aName << " ";
 		}
 		std::cout << std::endl;
 
